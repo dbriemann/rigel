@@ -203,6 +203,15 @@ hi link typescriptFunction Keyword
 hi link typescriptError Error
 hi link typescriptBoolean Boolean
 
+" Treesitter groups
+hi link TSConstBuiltin Constant
+hi link TSStringRegex Special
+hi link TSStringEscape String
+hi link TSFuncBuiltin Function
+hi link TSConstructor Typedef
+hi link TSVariableBuiltin Identifier
+hi link TSURI Tag
+
 let g:terminal_color_foreground = "#e6e6dc"
 let g:terminal_color_background = "#002635"
 let g:terminal_color_0 = "#00384d"
